@@ -19,14 +19,38 @@
                 </div>
                 <div class="navbar-menu" id="navMenu">
                     <div class="navbar-end">
-                        <form>
-                            <div class="field has-addons">
-                                
-                            </div>
-                        </form>
+                        <div class="navbar-item">
+                            <form>
+                                <div class="field has-addons">
+                                   <div class="control is-expanded">
+                                       <input type="search" name="search" class="input" id="search" placeholder="Search" aria-label="Search">
+                                   </div>
+                                   <div class="control">
+                                       <button type="submit" class="button is-info">
+                                           Search
+                                       </button>
+                                   </div>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </nav>
+        
+        <script type="text/javascript">
+            document.addEventListener("DOMContentLoaded" , function() {
+                var $navbarBurger = document.getElementById("navToggle");
+                
+                $navbarBurger.addEventListener('click', function() {
+                    var target = $navbarBurger.dataset.target;
+                    var $target = document.getElementById(target);
+                    
+                    $navbarBurger.classList.toggle('is-active');
+                    $target.classList.toggle('is-active');
+                });
+            });
+            
+        </script>
     </body>
 </html>
