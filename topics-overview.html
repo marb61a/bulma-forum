@@ -409,6 +409,34 @@
                         </tbody>
                     </table>
                 </div>
+                
+                <!--Pagination-->
+                <nav class="pagination" role="navigation" aria-label="pagination">
+                    <a class="pagination-previous" title="This is the first page" disabled>
+                        Previous
+                    </a>
+                    <a class="pagination-next">Next</a>
+                    <ul class="pagination-list">
+                        <li>
+                            <a pagination-link is-current aria-label="Page 1" aria-current="page">1</a>
+                        </li>
+                        <li><a pagination-link aria-label="Goto page 2">2</a></li>
+                        <li><a pagination-link aria-label="Goto page 3">3</a></li>
+                        <li><a pagination-link aria-label="Goto page 4">4</a></li>
+                        <li><a pagination-link aria-label="Goto page 5">5</a></li>
+                        <li><span class="pagination-ellipsis">&hellip;</span></li>
+                        <li><a pagination-link aria-label="Goto page 30">30</a></li>
+                    </ul>
+                </nav>
+                
+                <!--Form-->
+                <form id="sort-and-filter" class="is-flex-desktop">
+                    <div class="field is-flex-desktop">
+                        <label class="label" for="select-time">
+                            Display posts from previous
+                        </label>
+                    </div>
+                </form>
             </div>
         </section>
         
