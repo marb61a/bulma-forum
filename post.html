@@ -6,10 +6,11 @@
         <title>Post Title - Bulma Forum</title>
         <link rel="stylesheet" href="css/bulma.css">
         <style type="text/css">
-            .forum-col {
+            .topic-col {
                 min-width: 16em;
             }
-            .last-post-col {
+            .last-post-col,
+            .created-col {
                 min-width: 12em;
             }
             .table-responsive {
@@ -62,335 +63,32 @@
             <div class="container">
                 <nav class="breadcrumb" aria-label="breadcrumbs">
                     <ul>
+                        <li><a href="index.html">Board Index</a></li>
+                        <li><a href="forums-overview.html">Forum Category</a></li>
+                        <li><a href="topics-overview.html">Forum Name</a></li>
                        <li class="is-active">
-                            <a href="#0" aria-current="page">Board Index</a>   
+                            <a href="#0" aria-current="page">Forum Post title with a long and complex question</a>   
                         </li> 
                     </ul>
                 </nav>
-                <div class="columns is-desktop">
-                    <div class="column is-three-quaters-desktop">
-                        <h2 class="title">
-                            <a href="forums-overview.html">Category</a>
-                        </h2>
-                        <div class="table-responsive">
-                            <table class="table is-striped is-bordered is-fullwidth">
-                                <thead>
-                                    <tr>
-                                        <th scope="col" class="forum-col">Forum</th>
-                                        <th scope="col">Topics</th>
-                                        <th scope="col">Posts</th>
-                                        <th scope="col" class="last-post-col">Latest Post</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>
-                                            <h3 class="title is-5 is-marginless">
-                                                <a href="topics-overview.html" class="is-uppercase">
-                                                    Forum Name
-                                                </a>
-                                                <p>
-                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime fuga, 
-                                                    aperiam quo similique consequatur praesentium numquam dolore
-                                                </p>
-                                            </h3>
-                                        </td>
-                                        <td>
-                                            <div>5</div>
-                                        </td>
-                                        <td>
-                                            <div>18</div>
-                                        </td>
-                                        <td>
-                                            <h4 class="title is-6 has-text-weight-bold is-marginless">
-                                                <a href="post.html">
-                                                    Post Name
-                                                </a>
-                                            </h4>
-                                            <div>by <a href="#0">Author Name</a></div>
-                                            <div>01 January 2019, 21:00</div>
-                                            <div></div>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <br>
-                        <br>
-                         <h2 class="title">
-                            <a href="forums-overview.html">Category</a>
-                        </h2>
-                        <div class="table-responsive">
-                            <table class="table is-striped is-bordered is-fullwidth">
-                                <thead>
-                                    <tr>
-                                        <th scope="col" class="forum-col">Forum</th>
-                                        <th scope="col">Topics</th>
-                                        <th scope="col">Posts</th>
-                                        <th scope="col" class="last-post-col">Latest Post</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>
-                                            <h3 class="title is-5 is-marginless">
-                                                <a href="topics-overview.html" class="is-uppercase">
-                                                    Forum Name
-                                                </a>
-                                                <p>
-                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime fuga, 
-                                                    aperiam quo similique consequatur praesentium numquam dolore
-                                                </p>
-                                            </h3>
-                                        </td>
-                                        <td>
-                                            <div>5</div>
-                                        </td>
-                                        <td>
-                                            <div>18</div>
-                                        </td>
-                                        <td>
-                                            <h4 class="title is-6 has-text-weight-bold is-marginless">
-                                                <a href="post.html">
-                                                    Post Name
-                                                </a>
-                                            </h4>
-                                            <div>by <a href="#0">Author Name</a></div>
-                                            <div>01 January 2019, 21:00</div>
-                                            <div></div>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <br>
-                        <br>
-                         <h2 class="title">
-                            <a href="forums-overview.html">Category</a>
-                        </h2>
-                        <div class="table-responsive">
-                            <table class="table is-striped is-bordered is-fullwidth">
-                                <thead>
-                                    <tr>
-                                        <th scope="col" class="forum-col">Forum</th>
-                                        <th scope="col">Topics</th>
-                                        <th scope="col">Posts</th>
-                                        <th scope="col" class="last-post-col">Latest Post</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>
-                                            <h3 class="title is-5 is-marginless">
-                                                <a href="topics-overview.html" class="is-uppercase">
-                                                    Forum Name
-                                                </a>
-                                                <p>
-                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime fuga, 
-                                                    aperiam quo similique consequatur praesentium numquam dolore
-                                                </p>
-                                            </h3>
-                                        </td>
-                                        <td>
-                                            <div>5</div>
-                                        </td>
-                                        <td>
-                                            <div>18</div>
-                                        </td>
-                                        <td>
-                                            <h4 class="title is-6 has-text-weight-bold is-marginless">
-                                                <a href="post.html">
-                                                    Post Name
-                                                </a>
-                                            </h4>
-                                            <div>by <a href="#0">Author Name</a></div>
-                                            <div>01 January 2019, 21:00</div>
-                                            <div></div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <h3 class="title is-5 is-marginless">
-                                                <a href="topics-overview.html" class="is-uppercase">
-                                                    Forum Name
-                                                </a>
-                                                <p>
-                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime fuga, 
-                                                    aperiam quo similique consequatur praesentium numquam dolore
-                                                </p>
-                                            </h3>
-                                        </td>
-                                        <td>
-                                            <div>5</div>
-                                        </td>
-                                        <td>
-                                            <div>18</div>
-                                        </td>
-                                        <td>
-                                            <h4 class="title is-6 has-text-weight-bold is-marginless">
-                                                <a href="post.html">
-                                                    Post Name
-                                                </a>
-                                            </h4>
-                                            <div>by <a href="#0">Author Name</a></div>
-                                            <div>01 January 2019, 21:00</div>
-                                            <div></div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <h3 class="title is-5 is-marginless">
-                                                <a href="topics-overview.html" class="is-uppercase">
-                                                    Forum Name
-                                                </a>
-                                                <p>
-                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime fuga, 
-                                                    aperiam quo similique consequatur praesentium numquam dolore
-                                                </p>
-                                            </h3>
-                                        </td>
-                                        <td>
-                                            <div>5</div>
-                                        </td>
-                                        <td>
-                                            <div>18</div>
-                                        </td>
-                                        <td>
-                                            <h4 class="title is-6 has-text-weight-bold is-marginless">
-                                                <a href="post.html">
-                                                    Post Name
-                                                </a>
-                                            </h4>
-                                            <div>by <a href="#0">Author Name</a></div>
-                                            <div>01 January 2019, 21:00</div>
-                                            <div></div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <h3 class="title is-5 is-marginless">
-                                                <a href="topics-overview.html" class="is-uppercase">
-                                                    Forum Name
-                                                </a>
-                                                <p>
-                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime fuga, 
-                                                    aperiam quo similique consequatur praesentium numquam dolore
-                                                </p>
-                                            </h3>
-                                        </td>
-                                        <td>
-                                            <div>5</div>
-                                        </td>
-                                        <td>
-                                            <div>18</div>
-                                        </td>
-                                        <td>
-                                            <h4 class="title is-6 has-text-weight-bold is-marginless">
-                                                <a href="post.html">
-                                                    Post Name
-                                                </a>
-                                            </h4>
-                                            <div>by <a href="#0">Author Name</a></div>
-                                            <div>01 January 2019, 21:00</div>
-                                            <div></div>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                    <div class="column is-one-quarter-desktop">
-                        <aside>
-                            <div class="columns is-block-desktop">
-                                <div class="is-half-tablet is-full-desktop">
-                                    <div class="card">
-                                        <header class="card-header">
-                                            <h2 class="card-header-title has-text-centered">Members Online</h2>
-                                        </header>
-                                        <div class="card-content">
-                                            <ul>
-                                                <li><a href="#0">Forum Member Name</a></li>
-                                                <li><a href="#0">Forum Member Name</a></li>
-                                                <li><a href="#0">Forum Member Name</a></li>
-                                                <li><a href="#0">Forum Member Name</a></li>
-                                                <li><a href="#0">Forum Member Name</a></li>
-                                                <li><a href="#0">Forum Member Name</a></li>
-                                                <li><a href="#0">Forum Member Name</a></li>
-                                            </ul>
-                                            <hr>
-                                            <div class="level is-mobile">
-                                                <div class="level-item">
-                                                    <dl class="has-text-centered">
-                                                        <dt class="heading">Total: </dt>
-                                                        <dd class="subtitle">10</dd>
-                                                    </dl>
-                                                </div>
-                                                <div class="level-item">
-                                                    <dl class="has-text-centered">
-                                                        <dt class="heading">Members: </dt>
-                                                        <dd class="subtitle">7</dd>
-                                                    </dl>
-                                                </div>
-                                                <div class="level-item">
-                                                    <dl class="has-text-centered">
-                                                        <dt class="heading">Guests: </dt>
-                                                        <dd class="subtitle">3</dd>
-                                                    </dl>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="column is-half-tablet is-full-desktop">
-                                    <div class="card">
-                                        <header class="header">
-                                            <h2 class="card-header-title has-text-centered">Forum Statistics</h2>
-                                        </header>
-                                        <hr>
-                                        <div class="card-content">
-                                            <div class="level is-mobile">
-                                                <div class="level-item">
-                                                    <dl class="has-text-centered">
-                                                        <dt class="heading">Total Forums :</dt>
-                                                        <dd class="subtitle">15</dd>
-                                                    </dl>
-                                                </div>
-                                                <div class="level-item">
-                                                    <dl class="has-text-centered">
-                                                        <dt class="heading">Total Topics :</dt>
-                                                        <dd class="subtitle">200</dd>
-                                                    </dl>
-                                                </div>
-                                            </div>
-                                             <div class="level is-mobile">
-                                                <div class="level-item">
-                                                    <dl class="has-text-centered">
-                                                        <dt class="heading">Total Posts :</dt>
-                                                        <dd class="subtitle">2450</dd>
-                                                    </dl>
-                                                </div>
-                                                <div class="level-item">
-                                                    <dl class="has-text-centered">
-                                                        <dt class="heading">Total Members :</dt>
-                                                        <dd class="subtitle">1120</dd>
-                                                    </dl>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <hr>
-                                        <div>Newest Member </div>
-                                        <div>
-                                            <a href="#0">Member Name</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </aside>
-                    </div>
+                <h2 class="title">Forum Post title with a long and complex question</h2>
+                <div class="table-responsive">
+                    <table class="table is-striped is-bordered is-fullwidth">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="forum-col">Forum</th>
+                                <th scope="col">Topics</th>
+                                <th scope="col">Posts</th>
+                                <th scope="col" class="last-post-col">Latest Post</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            
+                        </tbody>
+                    </table>
                 </div>
-            </div>
             
-             
+                         
             <!--Pagination-->
             <nav class="pagination" role="navigation" aria-label="pagination">
                 <a class="pagination-previous" title="This is the first page" disabled>
@@ -410,6 +108,7 @@
                 </ul>
             </nav>
             
+            </div>
         </section>
         
         <!--Footer-->
