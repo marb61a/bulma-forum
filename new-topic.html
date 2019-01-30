@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Board Index - Bulma Forum</title>
+        <link rel="stylesheet" href="css/bulma.css">
+        <style type="text/css">
+            .topic-col {
+                min-width: 16em;
+            }
+            .created-col,
+            .last-post-col {
+                min-width: 12em;
+            }
+            .table-responsive {
+                display: block;
+                width: 100%;
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+                -ms-overflow-style: -ms-autohiding-scrollbar;
+            }
+            .field, .label {
+                margin-right: 10px;
+            }
+            .pagination, #sort-and-filter {
+                margin-bottom: 1.5rem;
+            }
+        </style>
+    </head>
+    <body>
+        <!--Navbar-->
+        <nav class="navbar is-primary" role="navigation" aria-label="Main Navigation">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a href="index.html" class="navbar-item">Forum</a>
+                    <button class="button navbar-burger" id="navToggle" dataTarget="navMenu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+                <div class="navbar-menu" id="navMenu">
+                    <div class="navbar-end">
+                        <div class="navbar-item">
+                            <form>
+                                <div class="field has-addons">
+                                   <div class="control is-expanded">
+                                       <input type="search" name="search" class="input" id="search" placeholder="Search" aria-label="Search">
+                                   </div>
+                                   <div class="control">
+                                       <button type="submit" class="button is-info">
+                                           Search
+                                       </button>
+                                   </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        
+        <!--Table-->
+        <section class="section">
+            <div class="container">
+                <nav class="breadcrumb" aria-label="breadcrumbs">
+                    <ul>
+                        <li>
+                            <a href="index.html">Board Index</a>
+                        </li>
+                        <li>
+                            <a href="forums-overview.html">Forum Category</a>
+                        </li>
+                       <li class="is-active">
+                            <a href="#0" aria-current="page">Board Index</a>   
+                        </li> 
+                    </ul>
+                </nav>
+                 <h2 class="title">
+                    <a href="forums-overview.html">Category</a>
+                </h2>
+                <div class="table-responsive">
+                    <table class="table is-striped is-bordered is-fullwidth">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="topic-col">Topic</th>
+                                <th scope="col" class="created-col">Created</th>
+                                <th scope="col">Statistics</th>
+                                <th scope="col" class="last-post-col">Latest Post</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <h3>
+                                        <span class="tag is-primary">
+                                            7 unread
+                                        </span>
+                                        <a href="post.html" class="is-uppercase">
+                                            Forum Title with a complex and long question 
+                                        </a>
+                                    </h3>
+                                    <div class="is-small">
+                                        Go to page :
+                                        <a href="#0">1</a>, <a href="#0">2</a>, <a href="#0">3</a>, <a href="#0">4</a>, <a href="#0">5</a>,
+                                        <a href="#0">6</a>, <a href="#0">7</a>, <a href="#0">8</a>, <a href="#0">9</a>, <a href="#0">10</a>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>by <a href="#">Author's name</a></div>
+                                    <div>01 February 2018</div>
+                                </td>
+                                <td>
+                                    <div>5 replies</div>
+                                    <div>55 views</div>
+                                </td>
+                                <td>
+                                   <div>by <a href="#0">Author's name</a></div>
+                                    <div>03 February 2018</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h3>
+                                        <a href="post.html" class="is-uppercase">
+                                            Forum Title with a complex and long question 
+                                        </a>
+                                    </h3>
+                                </td>
+                                <td>
+                                    <div>by <a href="#">Author's name</a></div>
+                                    <div>01 February 2018</div>
+                                </td>
+                                <td>
+                                    <div>5 replies</div>
+                                    <div>55 views</div>
+                                </td>
+                                <td>
+                                   <div>by <a href="#0">Author's name</a></div>
+                                    <div>03 February 2018</div>
+                                </td>
+                            </tr>
+                             <tr>
+                                <td>
+                                    <h3>
+                                        <a href="post.html" class="is-uppercase">
+                                            Forum Title with a complex and long question 
+                                        </a>
+                                    </h3>
+                                </td>
+                                <td>
+                                    <div>by <a href="#">Author's name</a></div>
+                                    <div>01 February 2018</div>
+                                </td>
+                                <td>
+                                    <div>5 replies</div>
+                                    <div>55 views</div>
+                                </td>
+                                <td>
+                                   <div>by <a href="#0">Author's name</a></div>
+                                    <div>03 February 2018</div>
+                                </td>
+                            </tr>
+                             <tr>
+                                <td>
+                                    <h3>
+                                        <a href="post.html" class="is-uppercase">
+                                            Forum Title with a complex and long question 
+                                        </a>
+                                    </h3>
+                                </td>
+                                <td>
+                                    <div>by <a href="#">Author's name</a></div>
+                                    <div>01 February 2018</div>
+                                </td>
+                                <td>
+                                    <div>5 replies</div>
+                                    <div>55 views</div>
+                                </td>
+                                <td>
+                                   <div>by <a href="#0">Author's name</a></div>
+                                    <div>03 February 2018</div>
+                                </td>
+                            </tr> <tr>
+                                <td>
+                                    <h3>
+                                        <a href="post.html" class="is-uppercase">
+                                            Forum Title with a complex and long question 
+                                        </a>
+                                    </h3>
+                                </td>
+                                <td>
+                                    <div>by <a href="#">Author's name</a></div>
+                                    <div>01 February 2018</div>
+                                </td>
+                                <td>
+                                    <div>5 replies</div>
+                                    <div>55 views</div>
+                                </td>
+                                <td>
+                                   <div>by <a href="#0">Author's name</a></div>
+                                    <div>03 February 2018</div>
+                                </td>
+                            </tr>
+                             <tr>
+                                <td>
+                                    <h3>
+                                        <a href="post.html" class="is-uppercase">
+                                            Forum Title with a complex and long question 
+                                        </a>
+                                    </h3>
+                                </td>
+                                <td>
+                                    <div>by <a href="#">Author's name</a></div>
+                                    <div>01 February 2018</div>
+                                </td>
+                                <td>
+                                    <div>5 replies</div>
+                                    <div>55 views</div>
+                                </td>
+                                <td>
+                                   <div>by <a href="#0">Author's name</a></div>
+                                    <div>03 February 2018</div>
+                                </td>
+                            </tr>
+                             <tr>
+                                <td>
+                                    <h3>
+                                        <a href="post.html" class="is-uppercase">
+                                            Forum Title with a complex and long question 
+                                        </a>
+                                    </h3>
+                                </td>
+                                <td>
+                                    <div>by <a href="#">Author's name</a></div>
+                                    <div>01 February 2018</div>
+                                </td>
+                                <td>
+                                    <div>5 replies</div>
+                                    <div>55 views</div>
+                                </td>
+                                <td>
+                                   <div>by <a href="#0">Author's name</a></div>
+                                    <div>03 February 2018</div>
+                                </td>
+                            </tr>
+                             <tr>
+                                <td>
+                                    <h3>
+                                        <a href="post.html" class="is-uppercase">
+                                            Forum Title with a complex and long question 
+                                        </a>
+                                    </h3>
+                                </td>
+                                <td>
+                                    <div>by <a href="#">Author's name</a></div>
+                                    <div>01 February 2018</div>
+                                </td>
+                                <td>
+                                    <div>5 replies</div>
+                                    <div>55 views</div>
+                                </td>
+                                <td>
+                                   <div>by <a href="#0">Author's name</a></div>
+                                    <div>03 February 2018</div>
+                                </td>
+                            </tr>
+                             <tr>
+                                <td>
+                                    <h3>
+                                        <a href="post.html" class="is-uppercase">
+                                            Forum Title with a complex and long question 
+                                        </a>
+                                    </h3>
+                                </td>
+                                <td>
+                                    <div>by <a href="#">Author's name</a></div>
+                                    <div>01 February 2018</div>
+                                </td>
+                                <td>
+                                    <div>5 replies</div>
+                                    <div>55 views</div>
+                                </td>
+                                <td>
+                                   <div>by <a href="#0">Author's name</a></div>
+                                    <div>03 February 2018</div>
+                                </td>
+                            </tr>
+                             <tr>
+                                <td>
+                                    <h3>
+                                        <a href="post.html" class="is-uppercase">
+                                            Forum Title with a complex and long question 
+                                        </a>
+                                    </h3>
+                                </td>
+                                <td>
+                                    <div>by <a href="#">Author's name</a></div>
+                                    <div>01 February 2018</div>
+                                </td>
+                                <td>
+                                    <div>5 replies</div>
+                                    <div>55 views</div>
+                                </td>
+                                <td>
+                                   <div>by <a href="#0">Author's name</a></div>
+                                    <div>03 February 2018</div>
+                                </td>
+                            </tr>
+                             <tr>
+                                <td>
+                                    <h3>
+                                        <a href="post.html" class="is-uppercase">
+                                            Forum Title with a complex and long question 
+                                        </a>
+                                    </h3>
+                                </td>
+                                <td>
+                                    <div>by <a href="#">Author's name</a></div>
+                                    <div>01 February 2018</div>
+                                </td>
+                                <td>
+                                    <div>5 replies</div>
+                                    <div>55 views</div>
+                                </td>
+                                <td>
+                                   <div>by <a href="#0">Author's name</a></div>
+                                    <div>03 February 2018</div>
+                                </td>
+                            </tr>
+                             <tr>
+                                <td>
+                                    <h3>
+                                        <a href="post.html" class="is-uppercase">
+                                            Forum Title with a complex and long question 
+                                        </a>
+                                    </h3>
+                                </td>
+                                <td>
+                                    <div>by <a href="#">Author's name</a></div>
+                                    <div>01 February 2018</div>
+                                </td>
+                                <td>
+                                    <div>5 replies</div>
+                                    <div>55 views</div>
+                                </td>
+                                <td>
+                                   <div>by <a href="#0">Author's name</a></div>
+                                    <div>03 February 2018</div>
+                                </td>
+                            </tr>
+                             <tr>
+                                <td>
+                                    <h3>
+                                        <a href="post.html" class="is-uppercase">
+                                            Forum Title with a complex and long question 
+                                        </a>
+                                    </h3>
+                                </td>
+                                <td>
+                                    <div>by <a href="#">Author's name</a></div>
+                                    <div>01 February 2018</div>
+                                </td>
+                                <td>
+                                    <div>5 replies</div>
+                                    <div>55 views</div>
+                                </td>
+                                <td>
+                                   <div>by <a href="#0">Author's name</a></div>
+                                    <div>03 February 2018</div>
+                                </td>
+                            </tr>
+                             <tr>
+                                <td>
+                                    <h3>
+                                        <a href="post.html" class="is-uppercase">
+                                            Forum Title with a complex and long question 
+                                        </a>
+                                    </h3>
+                                </td>
+                                <td>
+                                    <div>by <a href="#">Author's name</a></div>
+                                    <div>01 February 2018</div>
+                                </td>
+                                <td>
+                                    <div>5 replies</div>
+                                    <div>55 views</div>
+                                </td>
+                                <td>
+                                   <div>by <a href="#0">Author's name</a></div>
+                                    <div>03 February 2018</div>
+                                </td>
+                            </tr>
+                             <tr>
+                                <td>
+                                    <h3>
+                                        <a href="post.html" class="is-uppercase">
+                                            Forum Title with a complex and long question 
+                                        </a>
+                                    </h3>
+                                </td>
+                                <td>
+                                    <div>by <a href="#">Author's name</a></div>
+                                    <div>01 February 2018</div>
+                                </td>
+                                <td>
+                                    <div>5 replies</div>
+                                    <div>55 views</div>
+                                </td>
+                                <td>
+                                   <div>by <a href="#0">Author's name</a></div>
+                                    <div>03 February 2018</div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+                <!--Pagination-->
+                <nav class="pagination" role="navigation" aria-label="pagination">
+                    <a class="pagination-previous" title="This is the first page" disabled>
+                        Previous
+                    </a>
+                    <a class="pagination-next">Next</a>
+                    <ul class="pagination-list">
+                        <li>
+                            <a pagination-link is-current aria-label="Page 1" aria-current="page">1</a>
+                        </li>
+                        <li><a pagination-link aria-label="Goto page 2">2</a></li>
+                        <li><a pagination-link aria-label="Goto page 3">3</a></li>
+                        <li><a pagination-link aria-label="Goto page 4">4</a></li>
+                        <li><a pagination-link aria-label="Goto page 5">5</a></li>
+                        <li><span class="pagination-ellipsis">&hellip;</span></li>
+                        <li><a pagination-link aria-label="Goto page 30">30</a></li>
+                    </ul>
+                </nav>
+                
+                <!--Form-->
+                <form id="sort-and-filter" class="is-flex-desktop">
+                    <div class="field is-flex-desktop">
+                        <label class="label" for="select-time">
+                            Display posts from previous
+                        </label>
+                        <div class="control">
+                            <div class="select is-small">
+                                <select id="select-time">
+                                    <option value="all-posts" selected>All Posts</option>
+                                    <option value="day">1 Day</option>
+                                    <option value="week">1 Week</option>
+                                    <option value="month">1 Month</option>
+                                    <option value="year">1 Year</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="field is-flex-desktop">
+                        <label class="label" for="select-sort">
+                            Sort
+                        </label>
+                        <div class="control">
+                            <div class="select is-small">
+                                <select id="select-time">
+                                    <option value="author">Author</option>
+                                    <option value="post-time" selected>Post Time</option>
+                                    <option value="replies">Replies</option>
+                                    <option value="subject">Subject</option>
+                                    <option value="views">Views</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="field is-flex-desktop">
+                        <label class="label" for="select-direction">
+                            Sort Direction
+                        </label>
+                        <div class="control">
+                            <div class="select is-small">
+                                <select id="select-direction">
+                                    <option value="ascending">Ascending</option>
+                                    <option value="descending" selected>Descending</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="control">
+                            <button type="submit" class="button is-small is-primary">
+                                Go
+                            </button>
+                        </div>
+                    </div>
+                </form>
+                <a href="new-topic.html" class="button is-large is-primary">
+                    New Topic
+                </a>
+            </div>
+        </section>
+        
+        <!--Footer-->
+        <footer>
+            <div class="container">
+                <ul class="level">
+                    <li class="level-item">&copy; Bulma Forum 2019</li>
+                    <li class="level-item">All Rights Reserved</li>
+                    <li class="level-item">
+                        <a href="#0">Terms of use and privacy policy</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+        
+        <script type="text/javascript">
+            document.addEventListener("DOMContentLoaded" , function() {
+                var $navbarBurger = document.getElementById("navToggle");
+                
+                $navbarBurger.addEventListener('click', function() {
+                    var target = $navbarBurger.dataset.target;
+                    var $target = document.getElementById(target);
+                    
+                    $navbarBurger.classList.toggle('is-active');
+                    $target.classList.toggle('is-active');
+                });
+            });
+            
+        </script>
+    </body>
+</html>

@@ -19,7 +19,10 @@
                 -webkit-overflow-scrolling: touch;
                 -ms-overflow-style: -ms-autohiding-scrollbar;
             }
-            .pagination {
+            .field, .label {
+                margin-right: 10px;
+            }
+            .pagination, #reply {
                 margin-bottom: 1.5 rem;
             }
         </style>
@@ -259,6 +262,24 @@
                         <input type="password" class="input is-small" id="password" required/>
                     </div>
                 </div>
+                <div class="field">
+                    <div class="control">
+                        <button type="submit" class="button is-small is-primary">
+                            Login
+                        </button>
+                    </div>
+                </div>
+                <div class="field">....or</div>
+                <div class="field">
+                    <div class="control">
+                        <button type="submit" class="button is-small is-primary">
+                            Create Account
+                        </button>
+                    </div>
+                </div>
+                <p class="small">
+                    <a href="#">Forgotten your account details?</a>
+                </p>
             </form>
             </div>
         </section>
