@@ -232,6 +232,34 @@
                 </ul>
             </nav>
             
+            <!--Login and Comment form-->
+            <form id="reply">
+                <div class="field">
+                    <label class="label" for="comment">
+                        Reply to this post
+                    </label>
+                    <div class="control">
+                        <textarea class="textarea" id="comment" rows="10" placeholder="Write your comment here" required>
+                        </textarea>
+                    </div>
+                </div>
+                <button type="reply" class="button is-primary">Reply</button>
+                <button type="reset" clsas="button is-danger">Reset</button>
+            </form>
+            <form id="sign-in" class="is-flex-desktop">
+                <div class="field is-flex-desktop">
+                    <label class="label" for="email">Email</label>
+                    <div class="control">
+                        <input type="email" class="input is-small" placeholder="example@email.com" id="email" required/>
+                    </div>
+                </div>
+                <div class="field is-flex-desktop">
+                    <label class="label" for="password">Password</label>
+                    <div class="control">
+                        <input type="password" class="input is-small" id="password" required/>
+                    </div>
+                </div>
+            </form>
             </div>
         </section>
         
