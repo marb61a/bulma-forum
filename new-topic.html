@@ -52,8 +52,34 @@
                         </li> 
                     </ul>
                 </nav>
-                <h2 class="title">Create a new topic</h2>
                 
+                <!--New Topic Form-->
+                <h2 class="title">Create a new topic</h2>
+                <form id="new-post">
+                    <div class="field">
+                        <label class="label" for="topic">Topic</label>
+                        <div class="control">
+                            <input type="text" class="input" id="input" placeholder="Give your topic a title" required>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label" for="comment">Comment</label>
+                        <textarea class="textarea" id="comment" rows="10" placeholder="Write your comment here" required>
+                        </textarea>
+                    </div>
+                    <div class="field">
+                        <label class="checkbox">
+                            <input type="checkbox" id="checkbox" value="notification">
+                            Notify me of replies
+                        </label>
+                    </div>
+                    <button type="submit" class="button is-primary">
+                        Create Topic
+                    </button>
+                    <button type="reset" class="button is-danger">
+                        Reset
+                    </button>
+                </form>
             </div>
         </section>
         
